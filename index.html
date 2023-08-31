@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="form-section">
+   <h1> Customer's Feedback </h1>
+   <p> Please let us know what you think! </p>
+   <form>
+    <fieldset> 
+        <label for="name"> Name:
+           <input required name="name" type="text" id="name" placeholder="Lucy">
+        </label>
+        <label> Customer's number: 
+        <input type="number" placeholder="0000" required> 
+        </label>
+        <label>
+           <p class="questionOne">Are you happy with our service? </p>
+            <input type="radio" name="yes-no" class="inline"> Yes
+            <input type="radio" name="yes-no" class="inline"> No
+        </label>
+        <label>
+            <p class="questionOne">
+                Tell us about your experience:
+            </p>
+            <textarea id="experience" cols="50" rows="3">
+            </textarea>
+        </label>
+        <label>
+            How did you found out about us? 
+            <select>
+                <option>TV</option>
+                <option>News Paper</option>
+                <option>Social Media</option>
+                <option>Other</option>
+
+            </select>
+        </label>
+
+        <label>
+            Send the receipt!
+            <input id="file" class="file" type="file">
+        </label>
+    </fieldset>
+    <input type="submit" value="Submit" id="sumbit" class="submit" />
+</form>
+    </section>
+</body>
+</html>
