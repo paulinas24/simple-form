@@ -49,7 +49,6 @@ form {
     min-height: 2em;
     border: none;
     box-shadow: 5px 5px 5px 5px rgba(115, 64, 22, 0.304);
-
   }
   .inline {
     width: unset;
@@ -80,6 +79,7 @@ form {
     margin: 1em auto;
     background-color: bisque;    
     box-shadow: 10px 10px 20px 10px rgba(115, 64, 22, 0.61);
+    min-width: ;
 
 
  }
@@ -92,3 +92,7 @@ form {
  input[type="radio"]{
   box-shadow: none;
  }
+ .title {
+  padding-top: 20px;
+ }
+
